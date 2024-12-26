@@ -3,5 +3,4 @@ function Testimonial() {
     <div>Testimonial</div>
   )
 }
-
-export default Testimonial
+export {Testimonial}

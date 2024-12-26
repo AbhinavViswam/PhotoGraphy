@@ -1,9 +1,5 @@
 import { createBrowserRouter } from "react-router-dom";
-import Home from "../components/Home"
-import Gallery from "../components/Gallery"
-import Highlights from "../components/Highlights"
-import Testmonial from "../components/Testimonial"
-import ContactUs from "../components/ContactUs"
+import {Home,Gallery,Contact,Testimonial,Highlights} from "../components/index"
 import App from "../App"
 
 const Router=createBrowserRouter([
@@ -24,11 +20,11 @@ const Router=createBrowserRouter([
     },
     {
         path:"/testimonial",
-        element:<Testmonial/>
+        element:<Testimonial/>
     },
     {
-        path:"/contact-us",
-        element:<ContactUs/>
+        path:"/contact",
+        element:<Contact/>
     }]}
     
 ])

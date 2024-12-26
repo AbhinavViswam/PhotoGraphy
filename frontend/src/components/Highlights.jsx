@@ -4,4 +4,4 @@ function Highlights() {
   )
 }
 
-export default Highlights
+export {Highlights}
