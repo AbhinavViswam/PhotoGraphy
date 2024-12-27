@@ -3,11 +3,17 @@ import { Navbar } from "./components"
 import { Footer } from "./components/Footer"
 function App() {
   return (
-    <>
-    <Navbar/>
-    <Outlet/>
-    <Footer/>
-    </>
+    <div className="w-screen">
+      <div className="flex justify-center align-center">
+        <Navbar />
+      </div>
+      <div className="min-h-screen h-full">
+      <Outlet />
+      </div>
+      <div className="">
+      <Footer />
+      </div>
+    </div>
   )
 }
 
