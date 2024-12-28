@@ -9,7 +9,7 @@ function Navbar() {
   };
 
   return (
-    <div className="relative flex items-center justify-around w-screen h-[12vh] bg-gray-800 text-white px-4">
+    <div className="relative flex items-center justify-around w-screen h-[12vh] bg-avocado-dark text-avocado-light px-4">
       <div className="w-[10vw] flex justify-center align-center">
         <h1 className="text-xl font-bold">_NAME_</h1>
       </div>
@@ -19,7 +19,7 @@ function Navbar() {
           <NavLink
             to="/"
             className={({ isActive }) =>
-              isActive ? "text-yellow-300" : "hover:text-yellow-300"
+              isActive ? "text-avocado-highlight" : "hover:text-avocado-highlight"
             }
           >
             HOME
@@ -29,7 +29,7 @@ function Navbar() {
           <NavLink
             to="/highlights"
             className={({ isActive }) =>
-              isActive ? "text-yellow-300" : "hover:text-yellow-300"
+              isActive ? "text-avocado-highlight" : "hover:text-avocado-highlight"
             }
           >
             HIGHLIGHTS
@@ -39,7 +39,7 @@ function Navbar() {
           <NavLink
             to="/testimonial"
             className={({ isActive }) =>
-              isActive ? "text-yellow-300" : "hover:text-yellow-300"
+              isActive ? "text-avocado-highlight" : "hover:text-avocado-highlight"
             }
           >
             TESTIMONIAL
@@ -49,7 +49,7 @@ function Navbar() {
           <NavLink
             to="/contact"
             className={({ isActive }) =>
-              isActive ? "text-yellow-300" : "hover:text-yellow-300"
+              isActive ? "text-avocado-highlight" : "hover:text-avocado-highlight"
             }
           >
             CONTACT
@@ -59,7 +59,7 @@ function Navbar() {
           <NavLink
             to="/gallery"
             className={({ isActive }) =>
-              isActive ? "text-yellow-300" : "hover:text-yellow-300"
+              isActive ? "text-avocado-highlight" : "hover:text-avocado-highlight"
             }
           >
             GALLERY
@@ -67,7 +67,6 @@ function Navbar() {
         </li>
       </ul>
 
-    
       <button
         className="block md:hidden text-2xl focus:outline-none"
         onClick={toggleMenu}
@@ -75,9 +74,8 @@ function Navbar() {
         ☰
       </button>
 
-   
       <div
-        className={`fixed top-0 right-0 h-full w-[60vw] bg-gray-700 text-white transform transition-transform duration-300 z-50 ${
+        className={`fixed top-0 right-0 h-full w-[60vw] bg-avocado-medium text-avocado-light transform transition-transform duration-300 z-50 ${
           menuOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
@@ -93,7 +91,7 @@ function Navbar() {
               to="/"
               onClick={toggleMenu}
               className={({ isActive }) =>
-                isActive ? "text-yellow-300" : "hover:text-yellow-300"
+                isActive ? "text-avocado-highlight" : "hover:text-avocado-highlight"
               }
             >
               HOME
@@ -104,7 +102,7 @@ function Navbar() {
               to="/highlights"
               onClick={toggleMenu}
               className={({ isActive }) =>
-                isActive ? "text-yellow-300" : "hover:text-yellow-300"
+                isActive ? "text-avocado-highlight" : "hover:text-avocado-highlight"
               }
             >
               HIGHLIGHTS
@@ -115,7 +113,7 @@ function Navbar() {
               to="/testimonial"
               onClick={toggleMenu}
               className={({ isActive }) =>
-                isActive ? "text-yellow-300" : "hover:text-yellow-300"
+                isActive ? "text-avocado-highlight" : "hover:text-avocado-highlight"
               }
             >
               TESTIMONIAL
@@ -126,7 +124,7 @@ function Navbar() {
               to="/contact"
               onClick={toggleMenu}
               className={({ isActive }) =>
-                isActive ? "text-yellow-300" : "hover:text-yellow-300"
+                isActive ? "text-avocado-highlight" : "hover:text-avocado-highlight"
               }
             >
               CONTACT
@@ -137,7 +135,7 @@ function Navbar() {
               to="/gallery"
               onClick={toggleMenu}
               className={({ isActive }) =>
-                isActive ? "text-yellow-300" : "hover:text-yellow-300"
+                isActive ? "text-avocado-highlight" : "hover:text-avocado-highlight"
               }
             >
               GALLERY
