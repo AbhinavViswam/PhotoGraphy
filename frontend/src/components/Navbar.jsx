@@ -19,7 +19,7 @@ function Navbar() {
           <NavLink
             to="/"
             className={({ isActive }) =>
-              isActive ? "text-avocado-highlight" : "hover:text-avocado-highlight"
+              isActive ? "text-avocado-highlight text-[#4a7337]" : "hover:text-avocado-highlight hover:text-[#6b8c21]"
             }
           >
             HOME
@@ -29,7 +29,7 @@ function Navbar() {
           <NavLink
             to="/highlights"
             className={({ isActive }) =>
-              isActive ? "text-avocado-highlight" : "hover:text-avocado-highlight"
+              isActive ? "text-avocado-highlight text-[#4a7337]" : "hover:text-avocado-highlight hover:text-[#6b8c21]"
             }
           >
             HIGHLIGHTS
@@ -39,7 +39,7 @@ function Navbar() {
           <NavLink
             to="/testimonial"
             className={({ isActive }) =>
-              isActive ? "text-avocado-highlight" : "hover:text-avocado-highlight"
+              isActive ? "text-avocado-highlight text-[#4a7337]" : "hover:text-avocado-highlight hover:text-[#6b8c21]"
             }
           >
             TESTIMONIAL
@@ -49,7 +49,7 @@ function Navbar() {
           <NavLink
             to="/contact"
             className={({ isActive }) =>
-              isActive ? "text-avocado-highlight" : "hover:text-avocado-highlight"
+              isActive ? "text-avocado-highlight text-[#4a7337]" : "hover:text-avocado-highlight hover:text-[#6b8c21]"
             }
           >
             CONTACT
@@ -59,7 +59,7 @@ function Navbar() {
           <NavLink
             to="/gallery"
             className={({ isActive }) =>
-              isActive ? "text-avocado-highlight" : "hover:text-avocado-highlight"
+              isActive ? "text-avocado-highlight text-[#4a7337]" : "hover:text-avocado-highlight hover:text-[#6b8c21]"
             }
           >
             GALLERY
@@ -85,13 +85,13 @@ function Navbar() {
         >
           ✖
         </button>
-        <ul className="flex flex-col items-center mt-20 space-y-6">
+        <ul className="flex flex-col items-center mt-20 space-y-6 bg-white h-screen">
           <li>
             <NavLink
               to="/"
               onClick={toggleMenu}
               className={({ isActive }) =>
-                isActive ? "text-avocado-highlight" : "hover:text-avocado-highlight"
+                isActive ? "text-avocado-highlight text-[#4a7337]" : "hover:text-avocado-highlight hover:text-[#6b8c21]"
               }
             >
               HOME
@@ -102,7 +102,7 @@ function Navbar() {
               to="/highlights"
               onClick={toggleMenu}
               className={({ isActive }) =>
-                isActive ? "text-avocado-highlight" : "hover:text-avocado-highlight"
+                isActive ? "text-avocado-highlight text-[#4a7337]" : "hover:text-avocado-highlight hover:text-[#6b8c21]"
               }
             >
               HIGHLIGHTS
@@ -113,7 +113,7 @@ function Navbar() {
               to="/testimonial"
               onClick={toggleMenu}
               className={({ isActive }) =>
-                isActive ? "text-avocado-highlight" : "hover:text-avocado-highlight"
+                isActive ? "text-avocado-highlight text-[#4a7337]" : "hover:text-avocado-highlight hover:text-[#6b8c21]"
               }
             >
               TESTIMONIAL
@@ -124,7 +124,7 @@ function Navbar() {
               to="/contact"
               onClick={toggleMenu}
               className={({ isActive }) =>
-                isActive ? "text-avocado-highlight" : "hover:text-avocado-highlight"
+                isActive ? "text-avocado-highlight text-[#4a7337]" : "hover:text-avocado-highlight hover:text-[#6b8c21]"
               }
             >
               CONTACT
@@ -135,7 +135,7 @@ function Navbar() {
               to="/gallery"
               onClick={toggleMenu}
               className={({ isActive }) =>
-                isActive ? "text-avocado-highlight" : "hover:text-avocado-highlight"
+                isActive ? "text-avocado-highlight text-[#4a7337]" : "hover:text-avocado-highlight hover:text-[#6b8c21]"
               }
             >
               GALLERY
