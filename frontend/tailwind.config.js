@@ -12,8 +12,12 @@ export default {
       },
       keyframes: {
         flyIn: {
-          "0%": { transform: "translateY(-50px)", opacity: "0" },
-          "100%": { transform: "translateY(0)", opacity: "1" },
+          "0%":{
+            scale:"0.6"
+          },
+          "100":{
+            scale:"1"
+          }
         },
       },
     },
